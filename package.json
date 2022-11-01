@@ -299,7 +299,7 @@
     "@types/tmp": "^0.2.2",
     "@types/turndown": "^5.0.1",
     "@types/utf8": "^3.0.1",
-    "@types/validator": "^13.7.1",
+    "@types/validator": "^13.7.10",
     "@typescript-eslint/eslint-plugin": "^5.3.1",
     "@typescript-eslint/parser": "^5.3.1",
     "babel-eslint": "^10.1.0",
