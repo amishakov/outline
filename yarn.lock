@@ -1705,34 +1705,34 @@
   resolved "https://registry.yarnpkg.com/@braintree/sanitize-url/-/sanitize-url-7.1.1.tgz#15e19737d946559289b915e5dad3b4c28407735e"
   integrity sha512-i1L7noDNxtFyL5DmZafWy1wRVhGehQmzZaz1HiN5e7iylJMSZR7ekOV7NsIqa5qBldlLrsKv4HbgFUVlQrz8Mw==
 
-"@bull-board/api@6.12.0", "@bull-board/api@^6.7.10":
-  version "6.12.0"
-  resolved "https://registry.yarnpkg.com/@bull-board/api/-/api-6.12.0.tgz#0df55e98c71e73005be8c92242befb1337532bc1"
-  integrity sha512-tlMQTc0EAiYbv8gjR0lCYAXDL1Uc8/dPD9tKjxvG+m9lUUpPAoRUXUHNtzwVQo+AHiF6WHEK9iA3+8KHJamc/w==
+"@bull-board/api@6.12.7", "@bull-board/api@^6.7.10":
+  version "6.12.7"
+  resolved "https://registry.yarnpkg.com/@bull-board/api/-/api-6.12.7.tgz#fcfac26397449cbf785699ae659daf640e6aa041"
+  integrity sha512-mI/akvhI937/IPB9+l2NN18Vd+RivCoNLIJ3h3ZxNrp3xetjX5R90l/wuHt5SG837sLkChgMhRVA2mJAiGypJA==
   dependencies:
     redis-info "^3.1.0"
 
-"@bull-board/koa@^6.12.0":
-  version "6.12.0"
-  resolved "https://registry.yarnpkg.com/@bull-board/koa/-/koa-6.12.0.tgz#3a25ee1b47e1134510378ac20c48910f78bd4b7d"
-  integrity sha512-4g6r2K/l+bUQXE5qbLPTs2QhjhAH0UNYOcPK3alXNy/s/wQ4EIJcrcIOmWbTIzKYMpchYp6yHc2I47pWJpShfg==
+"@bull-board/koa@^6.12.7":
+  version "6.12.7"
+  resolved "https://registry.yarnpkg.com/@bull-board/koa/-/koa-6.12.7.tgz#467b09bc97885903f99daaad13730125cca640ac"
+  integrity sha512-hamx3lHxmJVksfqb7VYPVMu4JlC5PbbGD6sby4aLm0xvikhHACOHFzQUM0IBHjcD1vnXAAQMUwEkIMkTg/651w==
   dependencies:
-    "@bull-board/api" "6.12.0"
-    "@bull-board/ui" "6.12.0"
+    "@bull-board/api" "6.12.7"
+    "@bull-board/ui" "6.12.7"
     "@koa/bodyparser" "^5.1.2"
     "@ladjs/koa-views" "^9.0.0"
     ejs "^3.1.10"
-    koa "^3.0.0"
+    koa "^3.0.1"
     koa-mount "^4.2.0"
     koa-router "^13.0.1"
     koa-static "^5.0.0"
 
-"@bull-board/ui@6.12.0":
-  version "6.12.0"
-  resolved "https://registry.yarnpkg.com/@bull-board/ui/-/ui-6.12.0.tgz#57ad8b2e2bb1e5b7002a0ae7da023d4521e3444b"
-  integrity sha512-a1+9bUlNViXIQcO9KPOd1EP66Ts4caYHgsc5OuunDMZ9Q6Y7sfrQXMhfnv3JWahSNo3hiX6Fc8wIL4p/bcTwsw==
+"@bull-board/ui@6.12.7":
+  version "6.12.7"
+  resolved "https://registry.yarnpkg.com/@bull-board/ui/-/ui-6.12.7.tgz#acc108c6c118d32027337b702a4709d0b67fa4df"
+  integrity sha512-EJvS84Ob661ASIjGH58RpKLb7upPM+kS9I7PdezS67Dtab1V8cq10E+Sb2WIvXVLaGgQU8eITiLBjgWze2uWsg==
   dependencies:
-    "@bull-board/api" "6.12.0"
+    "@bull-board/api" "6.12.7"
 
 "@bundle-stats/plugin-webpack-filter@4.19.1":
   version "4.19.1"
@@ -10477,7 +10477,7 @@ koa-useragent@*, koa-useragent@^4.1.0:
   dependencies:
     express-useragent "^1.0.15"
 
-koa@^3.0.0, koa@^3.0.1:
+koa@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/koa/-/koa-3.0.1.tgz#b211a0f350d1cc6185047671f8ef7e019c16351d"
   integrity sha512-oDxVkRwPOHhGlxKIDiDB2h+/l05QPtefD7nSqRgDfZt8P+QVYFWjfeK8jANf5O2YXjk8egd7KntvXKYx82wOag==
