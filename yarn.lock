@@ -99,13 +99,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-sdk/cloudfront-signer@npm:^3.1088.0":
-  version: 3.1088.0
-  resolution: "@aws-sdk/cloudfront-signer@npm:3.1088.0"
+"@aws-sdk/cloudfront-signer@npm:^3.1095.0":
+  version: 3.1095.0
+  resolution: "@aws-sdk/cloudfront-signer@npm:3.1095.0"
   dependencies:
-    "@smithy/core": "npm:^3.29.4"
+    "@smithy/core": "npm:^3.29.8"
     tslib: "npm:^2.6.2"
-  checksum: 10c0/2923c24f2e135f66170de337c999505e79ec4b08071ef6de6e06d3dac3a7a5457320527cf9d67e56a2473e3aaaccf3421350d526cd7b2472647a24814c2401f1
+  checksum: 10c0/7dfe33511285885c2b829f824088b2d537b93ed25dceabeb6dcf6391444455f350f6bd33ef3648c94b835edc30552719d4a13c336c12c5c019385e3b047dd15f
   languageName: node
   linkType: hard
 
@@ -5852,13 +5852,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@smithy/core@npm:^3.29.0, @smithy/core@npm:^3.29.1, @smithy/core@npm:^3.29.4":
+"@smithy/core@npm:^3.29.0, @smithy/core@npm:^3.29.1":
   version: 3.29.5
   resolution: "@smithy/core@npm:3.29.5"
   dependencies:
     "@smithy/types": "npm:^4.16.1"
     tslib: "npm:^2.6.2"
   checksum: 10c0/42dfd3235949c834411329fd519888052402989967c3c2e08ae6832eb0f7334aeb7b3e48dba703faf93e6c5edc72acf17618a2b3f417442dcffe92826d37a5c0
+  languageName: node
+  linkType: hard
+
+"@smithy/core@npm:^3.29.8":
+  version: 3.30.0
+  resolution: "@smithy/core@npm:3.30.0"
+  dependencies:
+    "@smithy/types": "npm:^4.16.1"
+    tslib: "npm:^2.6.2"
+  checksum: 10c0/221105a3f598329b13060107ef752817bb72e738b3dd65c82ff2ea23cc60cef00994b05ced626ed02e7770d3c7d876155b253889bb7ee217be9c5cf8f3559a21
   languageName: node
   linkType: hard
 
@@ -15395,7 +15405,7 @@ __metadata:
   resolution: "outline@workspace:."
   dependencies:
     "@aws-sdk/client-s3": "npm:^3.1079.0"
-    "@aws-sdk/cloudfront-signer": "npm:^3.1088.0"
+    "@aws-sdk/cloudfront-signer": "npm:^3.1095.0"
     "@aws-sdk/lib-storage": "npm:^3.1079.0"
     "@aws-sdk/s3-presigned-post": "npm:^3.1079.0"
     "@aws-sdk/s3-request-presigner": "npm:^3.1079.0"
